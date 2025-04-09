@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Vocacional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Test Vocacional</h2>
+        <form id="vocationalTest">
+<!--  -->
+            <div class="question">
+                <p>1. ¿Qué actividad disfrutas más?</p>
+                <label><input type="radio" name="q1" value="ciencia"> Experimentar en un laboratorio</label><br>
+                <label><input type="radio" name="q1" value="arte"> Dibujar o pintar</label><br>
+                <label><input type="radio" name="q1" value="social"> Ayudar a otras personas</label><br>
+            </div>
+            <div class="question">
+                <p>2. ¿Cómo te gustaría que fuera tu ambiente de trabajo?</p>
+                <label><input type="radio" name="q2" value="oficina"> En una oficina con computadora</label><br>
+                <label><input type="radio" name="q2" value="aire_libre"> Al aire libre, en movimiento</label><br>
+                <label><input type="radio" name="q2" value="hospital"> En un hospital o clínica</label><br>
+            </div>
+            <div class="question">
+                <p>3. ¿Qué tipo de materias disfrutas más?</p>
+                <label><input type="radio" name="q3" value="matematicas"> Matemáticas y lógica</label><br>
+                <label><input type="radio" name="q3" value="literatura"> Literatura y comunicación</label><br>
+                <label><input type="radio" name="q3" value="deportes"> Educación física y deportes</label><br>
+            </div>
+            <button type="submit">Enviar respuestas</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
